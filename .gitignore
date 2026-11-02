@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Notebooks & Testing
+.ipynb_checkpoints
+.pytest_cache/
+.coverage
+
+# Data policy: exclude raw datasets, keep sample
+data/raw/*
+!data/raw/.gitkeep
+!data/sample/*.csv
